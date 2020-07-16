@@ -26,8 +26,8 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
-admin.site.site_header = 'Social Network STARNAVi Administration'
-admin.site.site_title = 'Social Network STARNAVi Administration'
+admin.site.site_header = 'Social Network STARNAVI Administration'
+admin.site.site_title = 'Social Network STARNAVI Administration'
 
 admin.site.register(User, UserAdmin)
 admin.site.register(Post)
